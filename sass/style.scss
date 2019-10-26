@@ -1,0 +1,17 @@
+@charset "utf-8";
+@import "../../../bulma-0.7.5/bulma.sass";
+
+$navbar-height: 4.8rem;
+
+$tabs-border-bottom-width: 2px;
+$tabs-border-bottom-color: #f7f7f7;
+$tabs-link-padding: 1em 1em;
+
+$table-cell-padding: 1.2em 1.2em;
+$table-cell-border: 1px solid #f7f7f7;
+$table-row-active-background-color: hsl(170, 100%, 94%);
+$table-row-active-color: #000;
+
+@import "../../../bulma-0.7.5/sass/components/navbar.sass";
+@import "../../../bulma-0.7.5/sass/components/tabs.sass";
+@import "../../../bulma-0.7.5/sass/elements/table.sass";

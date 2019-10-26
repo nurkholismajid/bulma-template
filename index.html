@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | Codecamp</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" style="border-bottom: 2px solid #f7f7f7;">
+      <div class="container">
+          <div class="navbar-brand">
+          <a class="navbar-item" href="index.php">
+              <img src="assets/img/logo.png">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+          </a>
+          </div>
+      
+          <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+              <a class="navbar-item" href="index.php">
+              Home
+              </a>
+              
+              <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="kategori.php">
+                  Kategori
+              </a>
+              <div class="navbar-dropdown" style="width: 250px">
+                  <div class="dropdown-item">
+                      <a class="tag is-success" style="margin-bottom: 5px">HTML</a>
+                      <a class="tag is-warning" style="margin-bottom: 5px">CSS</a>
+                      <a class="tag is-link" style="margin-bottom: 5px">PHP</a>
+                      <a class="tag is-danger" style="margin-bottom: 5px">Javascript</a>
+                      <a class="tag is-light" style="margin-bottom: 5px">C++</a>
+                      <a class="tag is-dark" style="margin-bottom: 5px">Java</a>
+                      <a class="tag is-black" style="margin-bottom: 5px">Umum</a>
+                      <a class="tag is-primary">mySQL</a>
+                  </div>                 
+              </div>
+              </div>
+      
+              <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                  Lainnya
+              </a>        
+              <div class="navbar-dropdown">
+                  <a class="navbar-item has-text-danger">
+                  Peraturan&ensp;<i class="fas fa-exclamation-circle"></i>
+                  </a>
+                  <a class="navbar-item">
+                  FAQ
+                  </a>
+                  <a class="navbar-item">
+                  Kontak
+                  </a>
+                  <a class="navbar-item">
+                  Tentang Kami
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item">
+                  Kritik & Saran
+                  </a>                  
+              </div>
+              </div>
+          </div>
+      
+          <div class="navbar-end">
+              <div class="navbar-item">
+              <div class="buttons">
+                  <a class="button is-info" href="daftar.php"><strong>Daftar</strong></a>
+                  <a class="button is-light" href="login.php">Log in</a>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </nav>
+    </header>
+
+    <section class="section" style="padding-top: 5rem;">
+      <div class="container">
+        <div class="tabs" style="margin-bottom: 0;">
+          <ul>
+            <li class="is-active"><a><i class="fas fa-clock has-text-info"></i>&ensp;Terakhir</a></li>
+            <li><a><i class="fas fa-star has-text-warning"></i>&ensp;Top</a></li>
+            <li><a><i class="fas fa-box-open has-text-danger"></i>&ensp;Buka</a></li>
+            <li><a><i class="fas fa-check-double has-text-success"></i>&ensp;Tuntas</a></li>
+            <div class="field has-addons navbar-end">
+              <div class="control">
+                <input class="input" type="text" placeholder="Temukan topik">
+              </div>
+              <div class="control">
+                <a class="button is-info"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="table-container">
+          <table class="table is-striped is-fullwidth">
+            <thead>
+              <tr style="font-size:0.9em; padding:0px;">
+                <td width="60%">Topik</td>
+                <td style="vertical-align: middle"></td>
+                <td style="vertical-align: middle">Balas</td>
+                <td style="vertical-align: middle">Lihat</td>
+                <td style="vertical-align: middle">Aktivitas</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background-color:lightyellow">
+                <td style="vertical-align: middle">
+                  <i class="fas fa-bullhorn"></i>&nbsp;&nbsp;
+                  <span style="font-size: 1.2em">Selamat Datang! Harap membaca ini dulu!</span>
+                  <p style="margin: 8px 0 8px 0">Selamat, kamu telah menemukan komunitas! Sebelum kamu membuat topik baru atau postingan, harap membaca peraturan, terima kasih</p>  
+                  <a class="tag is-black">Umum</a>
+                </td>
+                <td style="vertical-align: middle"><span class="tag is-success is-large">A</span></td>
+                <td style="vertical-align: middle;color:darkgrey">242</td>
+                <td style="vertical-align: middle;color:darkgrey">15.1k</td>
+                <td style="vertical-align: middle;color:darkgrey">16m</td>
+              </tr>
+              <tr>
+                <td style="vertical-align: middle">
+                  <p style="margin-bottom: 8px">Bagaimana cara memanggil CSS menggunakan file eksternal melalui HTML</p>
+                  <a class="tag is-success">HTML</a>
+                  <a class="tag is-warning">CSS</a>
+                </td>
+                <td style="vertical-align: middle"><span class="tag is-danger is-large">C</span> <span class="tag is-info is-large">P</span></td>
+                <td style="vertical-align: middle;color:darkgrey">2</td>
+                <td style="vertical-align: middle;color:darkgrey">453</td>
+                <td style="vertical-align: middle;color:darkgrey">1h</td>
+              </tr>
+              <tr class="is-selected">
+                <td style="vertical-align: middle">
+                  <p style="margin-bottom: 8px">Apa perbedaan include dan require?</p>
+                  <a class="tag is-link">PHP</a>
+                </td>
+                <td style="vertical-align: middle"><span class="tag is-link is-large">K</span></td>
+                <td style="vertical-align: middle;color:darkgrey">2</td>
+                <td style="vertical-align: middle;color:darkgrey">453</td>
+                <td style="vertical-align: middle;color:darkgrey">2d</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <nav class="pagination" role="navigation" aria-label="pagination">
+          <a class="pagination-previous" title="This is the first page" disabled><i class="fas fa-angle-left"></i></a>
+          <a class="pagination-next"><i class="fas fa-angle-right"></i></a>
+          <ul class="pagination-list">
+            <li>
+              <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+            </li>
+            <li>
+              <a class="pagination-link" aria-label="Goto page 2">2</a>
+            </li>
+            <li>
+              <a class="pagination-link" aria-label="Goto page 3">3</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+      <div class="columns">
+          <div class="column is-one-fifth" style="text-align: right;"><img src="assets/img/logo-mono.png" width="150" style="margin-top: 25px;"></div>
+          <div class="column">
+          <div class="is-full">
+              <div class="navbar-menu">
+              <div class="navbar-start">
+                  <a class="navbar-item">
+                  Dukungan
+                  </a>
+                  <a class="navbar-item">
+                  Tentang Kami
+                  </a>
+                  <a class="navbar-item">
+                  Kontak
+                  </a>
+                  <a class="navbar-item">
+                  Tim Kami
+                  </a>
+              </div>
+              
+              <div class="navbar-end">
+                  <a class="navbar-item" href="#">
+                  <i class="fas fa-chevron-up"></i>
+                  </a>
+              </div>
+              </div>
+              <hr class="is-marginless">
+          </div>
+          <div class="is-full">
+              <div class="navbar-menu">
+                  <div class="navbar-start" style="font-size: 0.8em;">
+                      <a class="navbar-item" style="color:darkgrey">
+                      &copy; 2019 codecamp.site
+                      </a>
+                      <a class="navbar-item" style="color:darkgrey">
+                      Privasi
+                      </a>
+                      <a class="navbar-item" style="color:darkgrey">
+                      Kritik & Saran
+                      </a>
+                  </div>
+                  
+                  <div class="navbar-end" style="font-size: 1.2em;">
+                      <span><i class="fab fa-facebook"></i></span>
+                      <span style="margin-left: 15px"><i class="fab fa-instagram"></i></span>
+                      <span style="margin-left: 15px"><i class="fab fa-github"></i></span>
+                  </div>
+                  </div>
+          </div>
+          </div>
+      </div>
+      </div>
+    </footer>  
+
+    <!--Javascript disini sayang-->
+    <script src="assets/js/script.js"></script>
+
+  </body>
+</html>
